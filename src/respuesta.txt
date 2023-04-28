@@ -1,0 +1,53 @@
+{'type': 2, 'invocationId': '0',
+'item': {
+    'messages':
+        [
+            {'text': 'Hello world', 'author': 'user',
+            'from': {'id': '306520209649379', 'name': None},
+            'createdAt': '2023-04-28T05:04:02.2599016+00:00',
+            'timestamp': '2023-04-28T05:04:02.2558064+00:00',
+            'locale': 'en-us',
+            'market': 'en-us',
+            'region': 'us',
+            'messageId': 'da26d478-c06e-4724-904c-844a0ea14ac1',
+            'requestId': 'da26d478-c06e-4724-904c-844a0ea14ac1',
+            'nlu': {
+                'scoredClassification': {'classification': 'DEEP_LEO', 'score': None},
+                'classificationRanking': [{'classification': 'DEEP_LEO', 'score': None}],
+                'qualifyingClassifications': None, 'ood': None, 'metaData': None, 'entities': None
+                },
+            'offense': 'None',
+            'feedback': {'tag': None, 'updatedOn': None, 'type': 'None'},
+            'contentOrigin': 'cib',
+            'privacy': None,
+            'inputMethod': 'Keyboard'
+            },
+
+            {'text': 'Hello, this is Bing. Welcome to the world of search and chat.😊',
+            'author': 'bot',
+            'createdAt': '2023-04-28T05:04:06.5280845+00:00',
+            'timestamp': '2023-04-28T05:04:06.5280845+00:00',
+            'messageId': '4e139d2b-5208-49cf-b83b-abe44c650d87',
+            'requestId': 'da26d478-c06e-4724-904c-844a0ea14ac1',
+            'offense': 'None',
+            'adaptiveCards': [{
+                'type': 'AdaptiveCard',
+                'version': '1.0',
+                'body': [{
+                    'type': 'TextBlock',
+                    'text': 'Hello, this is Bing. Welcome to the world of search and chat.😊\n', 'wrap': True}]}
+                ],
+            'sourceAttributions': [],
+            'feedback': {'tag': None, 'updatedOn': None, 'type': 'None'},
+            'contentOrigin': 'DeepLeo',
+            'privacy': None,
+             'spokenText': 'Hello, this is Bing. Welcome to the world of search and chat.'}],
+    'firstNewMessageIndex': 1,
+    'defaultChatName': None,
+    'conversationId': '51D|BingProd|E199EA6BB535F05EFFBC36B7B87FE9E7CE249F332DF646D80B888DD295DDCF35',
+    'requestId': 'da26d478-c06e-4724-904c-844a0ea14ac1',
+    'conversationExpiryTime': '2023-04-28T11:04:10.2017511Z',
+    'shouldInitiateConversation': True,
+    'telemetry': {'metrics': None, 'startTime': '2023-04-28T05:04:02.2559671Z'},
+    'throttling': {'maxNumUserMessagesInConversation': 20, 'numUserMessagesInConversation': 1},
+    'result': {'value': 'Success', 'serviceVersion': '20230427.209'}}}
